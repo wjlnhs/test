@@ -1,0 +1,328 @@
+.vacation-bg{
+    background-image: url("../images/vacation_bg.png");
+    background-repeat: no-repeat;
+}
+.vacation-bg.inav{
+    vertical-align: -4px;
+    margin: 0px 15px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+.vacation-bg.inav1{
+     background-position: 0px -9px;
+ }
+.vacation-bg.inav2{
+    background-position: 0px -54px;
+}
+.vacation-bg.inav3{
+    background-position: 0px -99px;
+}
+.vacation-bg.inav4{
+    background-position: 0px -142px;
+}
+.vacation-bg.inav5{
+    background-position: 0px -186px;
+}
+.vacation-bg.inav6{
+    background-position: -3px -228px;
+}
+.vacation-bg.btn-save-one{
+    background-position: 0px -378px;
+    padding: 0px 20px;
+}
+
+.vacation-bg.btn-edit-one{
+    background-position: 0px -420px;
+    padding: 0px 20px;
+}
+
+.vacation-bg.add {
+    width: 35px;
+    height: 25px;
+    background-position: 0px -458px;
+    display: inline-block;
+    vertical-align: -7px;
+}
+.sub-nav{
+    border:1px solid #e6e6e6;
+    border-bottom:2px solid #47c7ea;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.sub-nav .nav-item{
+    display: block;
+    float: left;
+    color: #000;
+    margin: 0 42px 0 20px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+.sub-nav .nav-item em{
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+.sub-nav .nav-item em.em1{
+    border:6px solid;
+    position: absolute;
+    border-color:transparent  transparent #47c7ea transparent;
+    left: 10px;
+    border-radius: 1px;
+}
+.sub-nav .nav-item em.em2{
+    border:6px solid;
+    position: absolute;
+    border-color:transparent  transparent #f5f5f5 transparent;
+    top: -4px;
+    left: -6px;
+    border-radius: 1px;
+}
+.sub-nav .nav-item.current,.sub-nav .nav-item:hover{
+    color: #47c7ea;
+}
+.sub-nav .nav-item.current em{
+    display: block;
+}
+.vacation-bg.hasitems{
+    background-position: 210px -495px;
+}
+.vacation-select{
+    width:200px;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 1px 1px 1px 1px #e6e6e6;
+    background: #fff;
+    position: absolute;
+}
+.vacation-select .items{
+    height: 36px;
+    line-height: 36px;
+}
+.vacation-c-panel{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+.control-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-indent: 25px;
+    color: #000;
+}
+
+.vacation-c{
+    margin: auto;
+    width: 997px;
+    height: 362px;
+    position: relative;
+    overflow: hidden;
+}
+.vacation-c .a1{
+    position: absolute;
+    right: 69px;
+    top: 9px;
+    font-weight: bold;
+}
+.vacation-c .a2{
+    position: absolute;
+    top: 70px;
+    left: 134px;
+}
+.vacation-c .a3{
+    position: absolute;
+    top: 248px;
+    right: 134px;
+}
+.vacation-c .a4{
+    position: absolute;
+    top: 286px;
+    left: 416px;
+    font-weight: bold;
+}
+.vacation-c .a5{
+    position: absolute;
+    top: 328px;
+    left: 130px;
+    font-weight: bold;
+}
+.vacation-control{
+    background: url("../images/vacation_control.png") 0 0 no-repeat;
+}
+
+.vacation-remove{
+    background: url("../images/vacation_remove.png") 0 0 no-repeat;
+}
+.vacation-add{
+    background: url("../images/vacation_add.png") 0 0 no-repeat;
+}
+
+.vacation-stas{
+    position: absolute;
+    top: 79px;
+    left: 10px;
+}
+.vacation-stas .em1{
+    position: relative;
+    border: 8px solid #f5f5f5;
+    border-color: transparent transparent #f5f5f5 transparent;
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 10;
+    left: 190px;
+}
+
+.vacation-stas .content{
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 1px 1px #e6e6e6;
+    background: #fff;
+    width: 225px;
+}
+.vacation-stas .content .stas-title{
+    background: #f5f5f5;
+}
+.stas-table{
+    width: 100%;
+}
+.stas-table thead td{
+    background: #f5f5f5;
+    font-weight: bold;
+    color: #000;
+}
+.stas-table td{
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+}
+.vacation-content{
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 15px;
+    background: #fff;
+    line-height: 30px;
+    color: #000;
+}
+.vacation-content .v-title{
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+.vaca-line{
+    padding: 8px 0;
+}
+.view-desc{
+    width: 20px;
+    height: 20px;
+    background-position: 0px -330px;
+    display: block;
+}
+.comment-panel{
+    position: absolute;
+    width: 200px;
+    background-color: #fff1d4;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    color: #714c00;
+    right: 163px;
+    top: -37px;
+    line-height: 25px;
+    padding: 15px;
+    opacity: 0.8;
+    color: #fff1d4;
+}
+.comment-panel2{
+    position: absolute;
+    width: 200px;
+    border-radius: 4px;
+    color: #714c00;
+    right: 163px;
+    top: -37px;
+    line-height: 25px;
+    padding: 15px;
+}
+.comment-panel em {
+    border: 6px solid;
+    border-color: transparent transparent transparent #f4f4f4;
+    position: absolute;
+    right: 0;
+}
+.comment-panel em.em1 {
+    right: -12px;
+    top: 50%;
+}
+.comment-panel em.em2 {
+    border-left-color: #fff1d4;
+    top: -7px;
+    right: -5px;
+}
+.update-set{
+    padding: 15px;
+    background-color: #fff;
+    overflow: hidden;
+    width: 400px;
+}
+.update-set-line{
+    clear: both;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.app-table-list table thead{
+    background-color: #f5f5f5;
+}
+table.border-e6 td{
+    border: 1px solid #e6e6e6;
+    padding-left: 15px;
+}
+thead tr.no-blod td{
+    font-weight: normal;
+}
+.vacation-bg.vaca-detail{
+    padding: 2px 0px 2px 24px;
+    background-position: 0px -288px;
+}
+
+.update-vaca-pop{
+    width: 680px;
+    padding: 15px;
+    background-color: #fff;
+}
+.set-num{
+    margin: 3px;
+    overflow: hidden;
+}
+.set-num span{
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-color: #ededed;
+    color: #47c7ea;
+    cursor: pointer;
+    font-weight:bolder;
+    text-align: center;
+    line-height: 33px;
+    font-size: 16px;
+    border: 1px solid #dfdfdf;
+}
+.set-num span.m{
+    background-position: 4px -520px;
+}
+.set-num span.p{
+    background-position: 4px -556px;
+}
+
+.btn-cancel {
+    padding:1px 20px;
+}
+.app-table-list table{
+    width:auto;
+}

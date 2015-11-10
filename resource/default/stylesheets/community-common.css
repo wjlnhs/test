@@ -1,0 +1,17 @@
+.nav-bar .btn-yellow-h36, .nav-bar .btn-blue-h36{
+    margin-top: 7px;
+    color: #fff;
+    margin-right: 8px;
+}
+.nav-bar .btn-yellow-h36:hover, .nav-bar .btn-blue-h36:hover{
+    color: #fff;
+}
+.i8-form dt{
+    float: left;
+    line-height: 36px;
+    min-width: 60px;
+}
+.i8-form dd{
+    margin-left: 0px;
+    margin-bottom: 16px;
+}

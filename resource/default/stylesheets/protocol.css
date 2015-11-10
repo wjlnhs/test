@@ -1,0 +1,24 @@
+html{
+    font-size: 20px;
+}
+h1{
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 30px;
+    text-indent: 2em;
+}
+.content{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-indent: 2em;
+}
+.content p{
+    text-indent: 2em;
+}

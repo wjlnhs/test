@@ -1,0 +1,313 @@
+.set-page{
+    background: #fff;
+    padding-bottom: 50px;
+}
+.menu-ul-ul{
+    display: block;
+}
+.set-bgrt{
+    width: 50%;
+    right: 0px;
+    margin-right: -450px;
+    top: 0px;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: -1;
+}
+.introbody{
+    font-size: 15px;
+    line-height: 40px;
+    padding: 94px 0 0 80px;
+    font-weight: bold;
+    position: relative;
+    height: 380px;
+    background: #f5f5f5;
+}
+.introbody:after{
+    background: url("../images/introduction/introduction-bg.png") 0 -1244px no-repeat;
+    width: 270px;
+    height: 461px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.cmppay.introbody:after{
+    background: url("../images/introduction/cmppay-phone.png") no-repeat;
+    width: 270px;
+    height: 560px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.introbodyemp:after{
+    background-position: 0px -1804px;
+}
+.introbody .title{
+    background: url("../images/introduction/introduction-bg.png") 0 -6px no-repeat;
+    width: 190px;
+    height: 63px;
+    margin-bottom: 30px;
+}
+.introbody .creditpay{
+    background: url("../images/introduction/introduction-bg.png") 0px -66px no-repeat;
+}
+.introbody .emppay{
+    background: url("../images/introduction/introduction-bg.png") 0px -1732px no-repeat;
+}
+
+.introbody .text{
+
+}
+.introbody .watting{
+    font-size: 24px;
+    color: #47C7EA;
+    margin-top: 20px;
+}
+.introfooter{
+    font-size: 15px;
+    padding-left: 80px;
+    text-align: center;
+    padding-top: 70px;
+}
+.introfooter .icon{
+    background-image: url("../images/introduction/introduction-bg.png") ;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 136px;
+    height: 142px;
+}
+.icon-1{
+    background-position: 0px -668px;
+}
+.icon-2{
+    background-position: -152px -668px;
+}
+.icon-3{
+    background-position: -7px -810px;
+    width: 138px!important;
+    height: 140px!important;
+}
+.icon-4{
+    background-position: -7px -954px;
+}
+.icon-5{
+    background-position: -7px -813px;
+}
+.icon-6{
+    background-position: -168px -953px;
+}
+.icon-7{
+    background-position: -1px -1096px;
+}
+.icon-8{
+    background-position: 11px -2337px;
+}
+.icon-9{
+    background-position: -149px -2342px;
+}
+.icon-10{
+    background-position: 12px -2478px;
+}
+.icon-11{
+    background-position: -151px -2485px;
+}
+.introfooter .title{
+    font-size: 24px;
+    color: #47C7EA;
+    margin-top: 20px;
+}
+.introfooter .desc{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.introfooter .desc span{
+    font-weight: bold;
+}
+/*工资条*/
+
+
+.spage1{
+    width: 1150px;
+    height: 615px;
+    display: block;
+    margin:0 auto;
+    background-color: #f5f5f5;
+}
+.lpage{
+    height: 322px;
+    width: 537px;
+    float: left;
+    margin-top: 178px;
+    padding-left: 140px;
+    /*font-family:  NSimSun;*/
+    font-weight: 700;
+}
+.rpage{
+    background: url('../images/introduction/phone.png') no-repeat;
+    margin-top:50px;
+    padding-left: 60px;
+    height: 540px;
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+}
+.lpage h1{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.lpage p{
+    /*font-family: SimHei;*/
+    font-size: 15px;
+    line-height: 25px;
+}
+.spage2 {
+    width: 1038px;
+    height: 639px;
+    /*font-family: SimHei;*/
+    margin:0 auto;
+}
+.spage2 h1{
+    padding-top: 60px;
+    color: #47c7ea;
+    font-size: 36px;
+    text-align:center;
+}
+.secp{
+    background-color: #ffffff;
+}
+.spage2 h2, .spage4 h1{
+    font-size: 24px;
+    padding-top: 70px;
+    padding-left: 180px;
+    color: #47c7ea;
+}
+.spage3 h1{
+    font-size: 24px;
+    padding-top: 100px;
+    padding-left: 180px;
+    color: #47c7ea;
+}
+.spage2 p, .spage3 p, .spage4 p{
+    margin-top: 30px;
+    padding-left: 180px;
+    font-size: 15px;
+}
+.salarybill .pic2 {
+    margin-top: 70px;
+    width: 1038px;
+    height: 321px;
+    background: url('../images/introduction/ryxx1.png') no-repeat;
+    background-size: 980px;
+    background-position: center top;
+}
+.spage3{
+    width: 1038px;
+    height: 500px;
+    font-family: SimHei;
+    margin:0 auto;
+    background-color: #f5f5f5;
+    margin-top: -5px;
+}
+.salarybill .pic3{
+    margin-top: 70px;
+    width: 1038px;
+    height: 210px;
+    background: url('../images/introduction/gzmk1.png') no-repeat;
+    background-position: 15px top;
+    background-size: 1038px;
+}
+.spage4{
+    width: 1038px;
+    height: 638px;
+    font-family: SimHei;
+    background-color: #f5f5f5;
+    margin:0 auto;
+}
+.salarybill .pic4{
+    margin-top: 70px;
+    width: 1038px;
+    height: 410px;
+    background: url('../images/introduction/history1.png') no-repeat;
+    background-size: 1000px;
+    background-position: center top;
+}
+/*人事数据*/
+.part1{
+    width: 1200px;
+    height: 580px;
+}
+.rk1{
+    width: 450px;
+    height: 350px;
+    float: left;
+    margin-left: 65px;
+    margin-top: 70px;
+    background:url('../images/introduction/jiaqi.png') no-repeat;
+}
+.lk1{
+    width: 450px;
+    height: 350px;
+    float: left;
+    padding-top: 190px;
+    margin-left: 65px;
+}
+.rk2{
+    width: 450px;
+    height: 350px;
+    float: left;
+    padding-top: 190px
+}
+
+.lk2{
+    width: 450px;
+    height: 450px;
+    float: left;
+    margin-left: 65px;
+    margin-top: 70px;
+    background:url('../images/introduction/phone.png') no-repeat;
+}
+
+.rk2 h1,.lk1 h1{
+    font-size:36px;
+    font-family:  NSimSun;
+    margin-bottom: 50px;
+    color: #000;
+    line-height: 36px;
+}
+.lk1 p,.rk2 p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+    line-height: 36px;
+}
+
+/*人事数据没有权限*/
+.noleftmenu #js_left_bg{
+    display: none;
+}
+.noleftmenu .app-content{
+    width: auto!important;
+}
+.noleftmenu .app-left{
+    display: none;
+}
+.noleftmenu .app-right{
+    width: auto!important;
+    margin-left: 0px;
+}
+.noleftmenu .part1{
+    width: auto!important;
+}
+.noleftmenu .part1 .content{
+    width: 1040px;
+    margin: 0 auto;
+}
+.noleftmenu .rk1{
+    margin-left: 160px;
+    width: 350px;;
+}
+

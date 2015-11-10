@@ -1,0 +1,714 @@
+/*背景色*/
+.bg-pink{
+    background-color: #fa9264!important;
+}
+.bg-orange{
+    background-color: #fbb40e!important;
+}
+.bg-green{
+    background-color: #88ce1a!important;
+}
+.bg-blue1{
+    background-color: #17c3e4!important;
+}
+.bg-blue2{
+    background-color: #3d8cfc!important;
+}
+.bg-purple{
+    background-color: #7176f8!important;
+}
+
+
+.nav-bar .btn-yellow-h36{
+    margin-top: 7px;
+    color: #fff;
+    margin-right: 8px;
+}
+.nav-bar .btn-yellow-h36:hover{
+    color: #fff;
+}
+.longadd{
+    width: 100%;
+    height: 38px;
+    background: #47c7ea;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 38px;
+}
+.username-with-pic{
+    float: left;
+    margin-top: 24px;
+    margin-left: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.border3{
+    border: 1px solid #dfdfdf;
+    border-bottom: none;
+}
+td.operation a, td.operation span{
+    margin-right: 10px;
+}
+.tab-lev-2 a{
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding:0 25px;
+    color: #000;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 30px;
+    margin-top: 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+.tab-lev-2 a.active, .tab-lev-2 a:hover{
+    background: #47c7ea;
+    color: #fff;
+}
+.add-user{
+    width: 462px;
+    color: #000;
+}
+.i8-form dt{
+    float: left;
+    line-height: 36px;
+}
+.i8-form dd{
+    margin-left: 0px;
+    margin-bottom: 16px;
+}
+.add-user dt{
+    width: 60px;
+}
+.add-room dt{
+    width: 70px;
+}
+.add-room{
+    width: 322px;
+}
+.add-room input{
+    width: 250px;
+}
+.add-room textarea{
+    height: 60px;
+    width: 230px;
+    padding: 10px;
+    resize: none;
+}
+.add-manager{
+    width: 462px;
+    color: #000;
+}
+.add-manager input{
+    width: 380px;
+}
+.add-manager dt{
+    width: 80px;
+}
+dd .fw_ksntxtbox{
+    display: inline-block;
+    position: relative;
+}
+dd .fw_ksntxtbox .icon{
+    position: absolute;
+    right: 10px;
+    top:6px;
+}
+.add-user input{
+    width: 400px;
+}
+
+
+.search-rooms-top{
+    border:1px solid #dfdfdf;
+    margin-top: 15px;
+    background: #fff;
+    padding: 15px;
+}
+.search-rooms-top .tiles{
+    padding-left: 58px;
+}
+.search-rooms-top .tiles a.active, .search-rooms-top .tiles a:hover{
+    color: #fff;
+    background: #47c7ea;
+}
+.search-rooms-top .tiles a{
+    color: #000;
+    border-radius: 4px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    padding: 0px 25px;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+.search-rooms-top .times{
+    padding-left: 73px;
+}
+.start-time-box{
+    width: 290px;
+    display: inline-block;
+}
+.end-time-box{
+    width: 290px;
+    display: inline-block;
+}
+.data-btns{
+    margin-top: 4px;
+}
+.data-btns a:first-child{
+    border-radius: 5px 0px 0px 5px;
+    border-left-width: 1px;
+}
+.data-btns a:last-child{
+    border-radius: 0px 5px 5px 0px;
+}
+.data-btns a{
+    display: inline-block;
+    padding: 0 15px;
+    border: 1px solid #dfdfdf;
+    border-left-width: 0px;
+    line-height: 28px;
+    height: 28px;
+    float: left;
+    color: #000;
+}
+.data-btns a.active, .data-btns a:hover{
+    color: #fff;
+    background: #47c7ea;
+}
+.colleagues-list{
+    margin-top: 15px;
+    color: #000;
+    position: relative;
+    background-color: #fff;
+    padding: 30px 0 20px 0;
+    border-radius: 4px;
+    border: 1px solid #dfdfdf;
+}
+.colleagues-list .app-checkbox, .colleagues-list .app-checkbox-white{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.schedule-box{
+    padding: 15px;
+    min-height: 500px;
+}
+.schedule-box .data-btns>a{
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+}
+.schedule-box .data-btns>a.mark1:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 1px;
+    top:1px;
+    background:url('../images/icon.png') no-repeat -13px -4412px;
+}
+.fc-button.defaultset:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 1px;
+    top:1px;
+    background:url('../images/icon.png') no-repeat -13px -4412px;
+}
+.fc-button:hover.defaultset:before,.fc-button.active.defaultset:before,.fc-button.fc-state-active.defaultset:before{
+    background-position: -167px -4412px;
+}
+.schedule-box .data-btns>a.mark2:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -7px;
+    top: 11px;
+    background: url('../images/icon.png') no-repeat -13px -4286px;
+}
+.schedule-title{
+    margin-bottom: 15px;
+}
+.toback{
+    display: inline-block;
+    width: 55px;
+    height: 50px;
+    background-image: url('../images/icon.png');
+    background-repeat: no-repeat;
+    background-position:  5px -4338px;
+    background-color:rgba(250,250,250);
+    border-left: 1px solid #dfdfdf;
+}
+/*日程同步*/
+.sync-sch-cont-1{
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background: url('../images/sync-sch.png');
+    background-position: -30px -16px;
+    margin-top: 20px;
+}
+.or-code{
+    display: inline-block;
+    width: 100px;
+    background-image: url('../images/sync-sch.png');
+    background-repeat: no-repeat;
+    background-position: -100px -374px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.sync-sch-cont .warning{
+    margin: 25px 0;
+    border-radius: 4px;
+}
+.sync-sch-cont{
+    padding-left: 50px;
+}
+.sync-sch-cont li{
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.sync-sch-cont li:before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #47c7ea;
+    position: absolute;
+    left: 0px;
+    top:5px;
+    display: inline-block;
+}
+.sync-pic1{
+    display: inline-block;
+    width: 862px;
+    background-image: url('../images/sync-sch.png');
+    background-repeat: no-repeat;
+    background-position: -120px -492px;
+    height: 348px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.sync-pic2{
+    display: inline-block;
+    width: 862px;
+    background-image: url('../images/sync-sch.png');
+    background-repeat: no-repeat;
+    background-position: -120px -854px;
+    height: 348px;
+    margin-left: 30px;
+}
+
+.room-list{
+    clear: both;
+    overflow: hidden;
+}
+
+.table-title{
+    position: absolute;
+    width: 2928px;
+}
+
+.table-title td{
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #fafafa;
+    color: #b8b8b8;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.border-dfnoright{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    background-color:#fafafa ;
+    width: 106px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.time-title{
+    width: 915px;
+    height: 42px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.day-left{
+    width: 108px;
+    height: 410px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.time-content{
+    width: 915px;
+    height: 410px;
+    float: left;
+    position: relative;
+}
+.tabel-left{
+    position: absolute;
+}
+.table-content{
+    position: relative;
+    width: 2928px;
+}
+.table-content td{
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    color: #b8b8b8;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.showperson{
+    line-height: 30px;
+    z-index: 101;
+    position: absolute;
+    color: #fff;
+    height: 30px;
+    top: 5px;
+    left: 5px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.b-tnone,.b-tnone td{
+    border-top: none!important;
+    font-size: 12px;
+}
+
+.mCSB_container_wrapper,.mCSB_container_wrapper > .mCSB_container{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.table-content td:hover{
+    background: #fffbeb;
+}
+.table-content td.ui-selecting { background: #F39814; }
+.table-content td.ui-selected { background: #F39814; color: white; }
+.left-976{
+    left: -976px;
+}
+.hasmeeting{
+    background-color: #F39814!important;
+}
+.showtask{
+    position: absolute;
+    top: 12px;
+    left: 100px;
+}
+.currentdate{
+    line-height: 36px;
+    font-weight: bold;
+    color: #000;
+    margin-right: 50px;
+}
+.setschedulelist{
+    box-shadow: 0px 1px 2px #c9c9c9;
+    z-index: 10;
+    border-radius: 0px 0px 5px 5px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    width: 175px;
+    z-index: 101;
+    line-height: 35px;
+    padding: 15px;
+    margin-top: 30px!important;
+    right: 0;
+    text-align: left;
+}
+.setschedulelist .setschedulelist-title{
+    font-weight: bold;
+}
+.setschedulelist .blue-button{
+    border-radius: 4px!important;
+    color: #fff!important;
+}
+
+.calendardetail{
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    width: 1000px;
+    margin: auto;
+}
+.commonwindow-head .head-panel{
+    width: 1000px;
+}
+.calendardetail .r-title{
+    font-weight: bold;
+    line-height: 100px;
+    height: 100px;
+    border-bottom: 1px solid #dfdfdf;
+    padding-left: 45px;
+}
+.calendardetail .r-title img{
+    float: left;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    margin-top: 17px;
+    margin: 17px 15px 0 0;
+}
+.calendardetail .r-line{
+    padding-left: 45px;
+    clear: both;
+    line-height: 50px;
+    overflow: hidden;
+}
+.content-skt{padding:0px 45px;}
+.calendardetail .r-line .l-title{
+    width: 110px;
+    font-weight: bold;
+    float: left;
+}
+.calendardetail .r-line .l-content{
+    float: left;
+    width: 800px;
+}
+
+.calendardetail .kks_op_ulfiles li{
+    width: 383px;
+}
+.calendardetail .kks_op_file_info{
+    width: 260px;
+}
+.calendardetail .r-line  .person-panel{
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+.calendardetail .r-line  .person-panel a{
+    cursor: default;
+}
+.calendardetail .r-line  .person-panel img{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.crcle{
+    background: #fff;
+    overflow: hidden;
+    line-height: 36px;
+    font-size: 13px;
+    padding: 15px;
+}
+.crcle .crcle-line{
+
+}
+.chooseplace{
+    background: url('../images/sprite_home.png') no-repeat -667px -187px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    margin-top: -29px;
+}
+.place-panel{
+    width: 400px;
+    padding: 20px;
+}
+
+
+/*新建会议弹出框*/
+.edit-schedule-cont{
+    margin: 15px;
+    width: 796px;
+}
+.edit-schedule-cont dt{
+    width: 70px;
+}
+.w-724{
+    width: 724px;
+    display: inline-block;
+}
+.w-724 input{
+    width: 100%;
+
+}
+.edit-schedule-cont input{
+    position: relative;
+    background: transparent;
+}
+.start-time{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.end-time{
+    margin-top: 15px;
+    float: right;
+    margin-right: 2px;
+}
+.start-time, .start-time input{
+    width: 350px;
+    display: inline-block;
+}
+.end-time, .end-time input{
+    width: 350px;
+    display: inline-block;
+}
+.repeat-checkbox{
+    margin-left: -30px;
+}
+.repeat-box{
+    padding-left: 100px;
+}
+.edit-schedule-cont .repeat-start{
+    width: 340px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.edit-schedule-cont .repeat-end{
+    width: 340px;
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.every-week-checkboxs .app-checkbox{
+    margin-left: 45px;
+}
+.every-week-checkboxs .app-checkbox:first-child{
+    margin-left: 0px;
+}
+.free-meeting-room{
+    padding-left: 70px;
+}
+.search-free-meeting-room{
+    display: block;
+    margin:15px;
+    text-decoration:underline;
+}
+.edit-schedule-cont .expire-remind{
+    margin-left: 20px;
+}
+.edit-schedule-cont .expire-remind-unit{
+    width: 342px;
+    float: right;
+}
+.edit-schedule-cont .expire-remind-unit input{
+    width: 340px;
+}
+.edit-schedule-cont .detail{
+    width: 726px;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    height: 80px;
+}
+.edit-schedule-cont .btn-attachment{
+    margin-top: 5px;
+}
+.btn-attachment{
+    width: 40px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 35px;
+    background-image: url('../images/icon-small.png');
+    background-repeat: no-repeat;
+    background-position: 9px -1063px;
+}
+.attach-cont{
+    width: 725px;
+}
+.hashtab{
+    margin-bottom: 45px;
+}
+td.fc-more-cell{
+    height: auto!important;
+}
+.fc-month-view .fc th, .fc-month-view .fc td{
+    height: auto!important;
+}
+.fc-month-view td.fc-event-container{
+    height: 14px!important;
+}
+.fc-event{
+    line-height: 14px!important;
+}
+.w-910{
+    width: 890px;
+    margin-right: 20px;
+}
+.span-checked{
+    float: left;
+    margin-bottom: 10px;
+}
+.span-checked span{
+    float: left;
+}
+.span-checked .span-text{
+    margin-top: 2px;
+    width: 58px;
+}
+.detailtitle{
+    line-height: 30px;
+    margin-top: 12px;
+    float: left;
+}
+.detailtitle .subtitle{
+    font-size: 13px;
+    color: #6F7276;
+}
+
+.cal-view{
+    background-color: #fff;
+    width: 210px;
+    position: fixed;
+    left: 200px;
+    z-index: 101;
+    top: 67px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px 0px #dfdfdf;
+    border: 1px solid #dfdfdf;
+    line-height: 30px;
+}
+.cal-view-body{
+    padding: 10px;
+    color: #000;
+}
+.cal-view .cal-view-title{
+    text-indent: 63px;
+}
+.cal-view img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    position: absolute;
+    top: -30px;
+    z-index: 102;
+}
+.cal-view label{
+    color: #808080;
+}
+
+.cal-view-bottom{
+    border-top: 1px solid #dfdfdf;
+    height: 40px;
+    background-color: #fcfcfc;
+    line-height: 40px;
+    padding:0 10px;
+}
+.cal-view-bottom a{
+    padding: 1px 10px 1px 20px;
+}

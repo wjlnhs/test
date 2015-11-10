@@ -1,0 +1,23 @@
+.select-city{
+    background-color: #f2f2f2;
+}
+.i8city1, .i8city2{
+    max-height: 200px;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: default;
+    min-width: 150px!important;
+    z-index: 9999;
+}
+.i8city1 li, .i8city2 li{
+    box-sizing: border-box;
+    text-indent: 1em;
+    line-height: 36px;
+    border-bottom: 1px solid #f2f2f2;
+    min-width: 180px;
+}
+.i8city1 li:hover, .i8city2 li:hover{
+    background-color:#f2f2f2;
+}

@@ -1,0 +1,1457 @@
+.color999{
+    color: #999;
+}
+.rootskin ul.app-mapsite li a{
+    color: #fff;
+}
+.w-288{
+    width: 288px;
+}
+button:focus{
+    outline:none;
+}
+.home-showbox{
+    position: relative;
+}
+a.close-showbox{
+    position: absolute;
+    background: url('../images/template/templete-icon.png') -92px -632px no-repeat;
+    padding: 17px;
+    top: -40px;
+    right: -40px;
+}
+.menu-ul-ul{
+    display: block;
+}
+/*按钮*/
+.btn-blue-h32-s{
+    background-color: #47c7ea;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 96px;
+    text-align: center;
+}
+.btn-blue-h32w90{
+    background-color: #47c7ea;
+    color: #fff;
+    height: 32px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #47c7ea;
+    cursor: pointer;
+    width: 90px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+.btn-gray-h32w90{
+    background-color: #BFBFBF;
+    color: #fff;
+    height: 32px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #BFBFBF;
+    cursor: pointer;
+    width: 90px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+.btn-yellow-h32w90{
+    background-color: #f8b62b;
+    color: #fff;
+    height: 32px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #f8b62b;
+    cursor: pointer;
+    width: 90px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+.btn-blue-h32w90-w{
+    background-color: #fff;
+    color: #47c7ea;
+    height: 32px;
+    line-height: 30px;
+    border: 2px solid #47c7ea;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 90px;
+    text-align: center;
+    font-weight: bold;
+}
+.btn-blue-h46-l{
+    background-color: #f8b62b;
+    color: #fff;
+    height: 46px;
+    line-height: 46px;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*图标*/
+.eicon{
+    background-image: url('../images/employeepay/employeepay-bg.png');
+    background-repeat: no-repeat;
+}
+.eicon-b{
+    background-image: url('../images/employeepay/employeepay-bigbg.png');
+    background-repeat: no-repeat;
+}
+.eicon1{
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    background-position: -5px -612px;
+}
+.eicon2{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background-position: -5px -655px;
+    vertical-align: -2px;
+}
+.eicon3 {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background-position: -5px -707px;
+    vertical-align: -2px;
+}
+.eicon4{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background-position: -5px -571px;
+    vertical-align: -2px;
+}
+.eicon-reback{
+    display: block;
+    width: 40px;
+    height: 30px;
+    background-position: 4px -255px;
+}
+
+.eicon-toback{
+    display: block;
+    width: 40px;
+    height: 30px;
+    background-position: 5px -171px
+}
+.product-icon{
+    background-image: url('../images/employeepay/product-list.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 185px;
+    height: 185px;
+}
+/*头部*/
+.detail-logo{
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    background: url('../images/employeepay/employeepay-bigbg.png') no-repeat -214px -359px;
+}
+.rootskin ul.my-system li{
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -ms-transition: background .5s;
+    -o-transition: background .5s;
+    transition: background .5s;
+}
+.employeepay-content .commonwindow_top_off{
+    top: -10px;
+    right: 7px;
+}
+.employeepay-content .login-info{
+    width: 1000px;
+}
+.rootskin ul.my-system li:hover {
+    background: #354555;
+    border-color: #354555;
+
+}
+.rootskin .app-header-main2 ul.my-system li.my-info>a {
+    background-position: -355px -119px;
+}
+.rootskin .app-header-main2 ul.my-system li.my-message>a {
+    background-position: -442px -119px;
+}
+.my-reback{
+    padding: 0px!important;
+}
+.my-reback>a{
+    padding: 24px 18px;
+}
+.app-header.fixed .my-reback>a{
+    padding: 13px 18px;
+}
+input,select{
+    height: 30px;
+    text-indent: 5px;
+    line-height: 30px;
+}
+input:disabled,input[disabled],.i8-select[disabled] .i8-select-cked{
+    background-color: #f5f5f5;
+}
+input:focus{
+    box-shadow: 0px 0px 2px #47c7ea!important;
+    border:1px solid #47c7ea!important;
+}
+.app-head-employeepay,.login-info-employeepay{
+    width: 1000px;
+}
+.employeepay-content{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.banner{
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fed731;
+    height: 408px;
+    width: 1000px;
+    clear: both;
+}
+.banner .banner-img{
+    float: left;
+    width: 700px;
+}
+.banner .banner-img img{
+    width: 700px;
+    height: 408px;
+}
+.banner .banner-option{
+    float: left;
+    width: 290px;
+    line-height: 52px;
+    padding-top: 70px;
+}
+
+.banner .banner-option .banner-title{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    color: #774242;
+ }
+
+.banner .banner-option .banner-link{
+    font-weight: bold;
+    font-size: 16px;
+    color: #774242;
+    width: 230px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.income{
+
+}
+.income .income-left{
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 410px;
+    width: 320px;
+    float: left;
+    background-color: #fff;
+}
+.income .income-left .income-top{
+
+    background: -ms-linear-gradient(top, #47c7ea,  #34b0d2);        /* IE 10 */
+    background: -moz-linear-gradient(top, #47c7ea,  #34b0d2);        /* IE 10 */
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#47c7ea), to(#34b0d2));/*谷歌*/
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#47c7ea,endColorStr=#34b0d2); /*IE 6 7 8*/
+    width: 320px;
+    height: 140px;
+    color: #fff;
+}
+.income .income-left .income-top .top-title{
+    font-size: 12px;
+    padding: 10px 15px;
+    line-height: 20px;
+}
+.income .income-left .income-top .top-title .calendar-icon:before{
+    content: '';
+    background: url(../images/employeepay/employeepay-bg.png) -7px -132px no-repeat;
+    width: 28px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: -6px;
+}
+.income .income-left .income-top .top-content{
+    padding: 15px;
+}
+.income .income-left .income-top .top-content .card-num{
+   margin-top: 45px;
+}
+.income-num{
+    font-size: 60px;
+}
+.income-prompt{
+    padding: 15px;
+    line-height: 20px;
+}
+.income-option{
+    background: #fafafa;
+    height: 40px;
+    padding: 5px 0;
+    border-top: 1px solid #dedede;
+}
+.turna{
+    display: inline-block;
+    line-height: 40px;
+    width: 110px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    float: left;
+    margin-left: 10px;
+}
+.turna:before{
+    background-image: url(../images/employeepay/employeepay-bg.png);
+    background-repeat: no-repeat;
+    content: '';
+    width: 31px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: -2px;
+}
+.turnin{
+    background-color: #47c7ea;
+}
+.turnin:before{
+    background-position: -8px -48px;
+}
+.turnout{
+    background-color: #e6ab38;
+}
+.turnout:before{
+    background-position: -8px -85px;
+}
+.release-card{
+    margin: 15px 0 0 10px;
+    float: left;
+}
+ul.income-info{
+    overflow: hidden;
+    line-height: 20px;
+}
+ul.income-info li{
+    float: left;
+    margin:15px 0 15px 15px;
+    width: 160px;
+}
+ul.income-info li .info-text{
+    font-size: 21px;
+    color: #545454;
+    font-weight: bold;
+    line-height: 25px;
+}
+ul.income-info li.i-left{
+    width: 120px;
+    border-right: 1px dotted #999999;
+}
+.home-chart{
+    clear: both;
+}
+
+.home-chart .chart-left{
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 410px;
+    width: 320px;
+    float: left;
+}
+.home-chart .chart-left img{
+    width: 320px;
+    height: 410px;
+}
+.chart{
+    float: right;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    width: 630px;
+    height: 410px;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+
+.home-chart .chart .chart-title{
+    line-height: 50px;
+}
+
+.home-chart .chart .chart-title span{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.home-chart .chart .chart-title span:before{
+    content: '';
+    background: url(../images/employeepay/employeepay-bg.png) -7px -15px no-repeat;
+    width: 28px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: -5px;
+}
+
+.home-chart .chart .chart-title a{
+    float: right;
+}
+
+.chart-content{
+    height: 345px;
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+}
+.home-chart .chart .chart-content ul.tab{
+
+}
+.home-chart .chart .chart-content ul.tab li{
+    float: left;
+    height: 50px;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    border-bottom: 1px solid #dedede;
+    cursor: pointer;
+    width: 314px;
+}
+.home-chart .chart .chart-content ul.tab li:first-child{
+    border-right: 1px solid #DEDEDE;
+}
+.home-chart .chart .chart-content ul.tab li:last-child{
+    border-left: 1px solid #DEDEDE;
+
+}
+.home-chart .chart .chart-content ul.tab li.current{
+    border: none;
+    background: #fff;
+    width: 313px;
+}
+.employ-box{
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.employ-title{
+    line-height: 45px;
+    border-bottom: 2px solid #47c7ea;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.employ-panel{
+
+}
+.employ-panel .sub-title{
+    padding: 20px 0 20px 30px;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+}
+.employ-panel .form-box{
+    line-height: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.employ-panel .form-line{
+    padding: 10px 0;
+}
+.employ-panel .form-line label.title{
+    float: left;
+    width: 135px;
+}
+.tindent50{
+    text-indent: 50px;
+}
+.tindent35{
+    text-indent: 35px;
+}
+label.required:before{
+    content: '*';
+    color: #f00;
+    margin-left: -10px;
+    display: inline-block;
+    width: 10px;
+}
+label.tindent35.required:before{
+    margin-left: -10px;
+    text-indent: 0;
+}
+label.help:after{
+    content: '';
+    background: url("../images/employeepay/employeepay-bg.png") -4px -219px no-repeat;
+    width: 18px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: -3px;
+    cursor: pointer;
+}
+.help-panel{
+
+}
+.help-panel:before{
+
+}
+.help-panel:after{
+
+}
+.employ-panel .form-line label.title.w80{
+    width: 80px;
+}
+.employ-panel .form-line label.title.w90{
+    width: 90px;
+}
+.employ-panel .form-line span.forinput{
+    float: left;
+    width:360px ;
+}
+.employ-panel .form-line span.forinput input,.employ-panel .form-line span.forinput select{
+    width: 360px;
+}
+.employ-panel .form-line .form-submit{
+     float: right;
+     margin-right: 31px;
+     width: 96px;
+     background: #47c7ea;
+     border: none;
+     border-radius: 4px;
+     color: #fff;
+     font-weight: bold;
+ }
+.search-btn{
+    display: inline-block;
+    width: 96px;
+    background: #47c7ea;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.employ-panel .form-line .rebind{
+    width: 96px;
+    background: #47c7ea;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+.record-title{
+    line-height: 30px;
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.record-search{
+    float: right;
+}
+.employ-tab{
+    border: 1px solid #dedede;
+    border-bottom: none;
+    line-height: 40px;
+    background-color: #fff;
+    overflow: hidden;
+    height: 40px;
+}
+.employ-tab li{
+    float: left;
+    font-weight: bold;
+    padding: 0px 35px;
+    color: #000;
+    cursor: pointer;
+    height: 38px;
+}
+.employ-tab li.current,.employ-tab li:hover{
+    border-bottom: 2px solid #47c7ea;
+    color: #47c7ea;
+}
+/*注册头部进度*/
+.page1-des, .page2-des, .page3-des, .page4-des, .page5-des, .page6-des, .page7-des{
+    display: none;
+}
+.page1 .page1-des, .page2 .page2-des, .page3 .page3-des, .page4 .page4-des, .page5 .page5-des, .page6 .page6-des, .page7 .page7-des{
+display: block;
+}
+.page2 .unfinish-line{
+    background-position: 300px -74px;
+}
+.page3 .unfinish-line{
+    background-position: 360px -74px;
+}
+.cmppay .page4 .unfinish-line{
+    background-position: 410px -74px;
+}
+.page4 .unfinish-line{
+    background-position: 460px -74px;
+}
+.page5 .unfinish-line{
+     background-position: 460px -74px;
+ }
+.page6 .unfinish-line{
+    background-position: 460px -74px;
+}
+
+/*员工宝list*/
+.product-list{
+
+}
+.product-list dt{
+    width: 185px;
+    float: left;
+}
+.product-list dd{
+    padding-left: 210px;
+}
+.product-list-des{
+    padding-right: 150px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    padding-left: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 150px;
+    color: #000;
+}
+.product-list-des p{
+    line-height: 25px;
+
+}
+.product-list-des h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-list-des a{
+    position: absolute;
+    right: 25px;
+    top:50%;
+    margin-top: -16px;
+}
+.zx-bank .product-icon{
+    background-position:-30px -40px;
+}
+/*导出数据*/
+.export-filter-top{
+color: #404040;
+}
+.export-filter-cont{
+    color: #000;
+}
+.export-filter{
+    padding: 12px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+}
+.export-filter-cont{
+    margin-top: 20px;
+}
+.export-result{;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+}
+.export-result .filelist{
+    display: block;
+    margin-left: -4px;
+    border: none;
+}
+.export-result .export-btn{
+    text-decoration: underline;
+}
+.export-result .filelist li{
+    height: 170px;
+    margin-left: 20px;
+    width: 144px;
+}
+.export-result .filelist li .title{
+    font-size: 12px;
+    margin-top: 2px;
+}
+.export-result .filelist li .imgWrap{
+    margin-left: 12px;
+}
+.export-result .filelist li p.title{
+    top:130px;
+}
+/*查看*/
+.process-show .filelist{
+    display: block;
+    margin-left: -4px;
+    border: none;
+}
+.process-show{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+}
+.process-show-top{
+    padding: 18px;
+}
+.process-show .filelist{
+    padding-top: 0px;
+}
+.filelist .id-card-img{
+    margin-top: 28px;
+    width: 108px;
+}
+.process-show .filelist li p.title{
+    top:130px;
+}
+/*办理*/
+.apply-process{
+    border: 1px solid #e6e6e6;
+    padding: 18px;
+    padding-bottom: 40px;
+    background: #fff;
+}
+.apply-process-top{
+    color: #808080;
+    position: relative;
+ }
+.apply-process-top ul{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.apply-process-top li{
+    width: 238px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.apply-process li p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.apply-process li i{
+    background-image: url('../images/employeepay/employeepay-bg.png');
+    background-repeat: no-repeat;
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.apply-process .step1 i{
+    background-position: 3px -292px;
+}
+.apply-process .step2 i{
+    background-position: 3px -403px;
+}
+.apply-process .step3 i{
+    background-position: 3px -451px;
+}
+.apply-process .step4 i{
+    background-position: 3px -508px;
+}
+.apply-process .step0 i{
+    background-position: 3px -346px;
+}
+.apply-process .step1 p{
+    color: #3498db;
+}
+.apply-process .step2 p{
+    color: #32abb4;
+}
+.apply-process .step3 p{
+    color: #30bc92;
+}
+.apply-process .step4 p{
+    color: #2ecc71;
+}
+.apply-process .step0 p{
+    color: #808080;
+}
+.apply-process .steps>li i{
+    background-position: 3px -346px;
+}
+.apply-process .steps>li p{
+    color: #808080;
+}
+.apply-process .steps .step1 i, .apply-process .page1 .steps .step1 i, .apply-process .page2 .steps .step1 i, .apply-process .page3 .steps .step1 i, .apply-process .page4 .steps .step1 i, .apply-process .page5 .steps .step1 i{
+    background-position: 3px -292px;
+}
+.apply-process .page6 .steps .step2 i, .apply-process .page2 .steps .step2 i, .apply-process .page3 .steps .step2 i, .apply-process .page4 .steps .step2 i, .apply-process .page5 .steps .step2 i{
+    background-position: 3px -403px;
+}
+.apply-process .page6 .steps .step3 i, .apply-process .page5 .steps .step3 i{
+    background-position: 3px -451px;
+}
+.apply-process .page6 .steps .step4 i{
+    background-position: 3px -508px;
+}
+.apply-process .page6 .steps .step1 p, .apply-process .steps .step1 p, .apply-process .page1 .steps .step1 p, .apply-process .page2 .steps .step1 p, .apply-process .page3 .steps .step1 p, .apply-process .page4 .steps .step1 p, .apply-process .page5 .steps .step1 p{
+    color: #3498db;
+}
+.apply-process .page6 .steps .step2 p, .apply-process .page2 .steps .step2 p, .apply-process .page3 .steps .step2 p, .apply-process .page4 .steps .step2 p, .apply-process .page5 .steps .step2 p{
+    color: #32abb4;
+}
+.apply-process .page6 .steps .step3 p, .apply-process .page5 .steps .step3 p{
+    color: #30bc92;
+}
+.apply-process .page6 .steps .step4 p{
+    color: #2ecc71;
+}
+.finish-line{
+    height: 20px;
+    width: 760px;
+    background-image: url('../images/employeepay/line-bg.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 0 -20px;
+    left: 94px;
+    top: 59px;
+}
+.unfinish-line{
+    height: 20px;
+    width: 750px;
+    background-image: url('../images/employeepay/line-bg.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 0 -74px;
+    left: 90px;
+    top: 59px;
+    z-index: 1;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -ms-transition: background .5s;
+    -o-transition: background .5s;
+    transition: background .5s;
+}
+.apply-process-top .title2{
+    color: #000;
+    font-weight: bold;
+    line-height: 28px;
+}
+.apply-process-top .m-l160{
+    margin-left: 160px;
+}
+.apply-process-top .m-l200{
+    margin-left: 200px;
+}
+.base-info-form input,.base-info-form sel{
+    width: 296px;
+}
+.base-info-form .apply-page>.cate-row{
+    margin-top: 20px;
+}
+.base-info-form dl{
+   float: left;
+}
+.base-info-form .cate-body>dl:first-child{
+    width: 460px;
+}
+.base-info-form dt{
+    padding-top: 15px;
+    float: left;
+    clear: both;
+    line-height: 30px;
+
+}
+.base-info-form dd{
+    padding-left: 114px;
+    margin-top: 15px;
+}
+.base-info-form  .bd-gray{
+    background-color: #f5f5f5;
+}
+
+.i8-form2 input{
+    line-height: 30px;
+    height: 30px;
+}
+/*上传*/
+.upload-card{
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-right: 16px;
+}
+.upload-card-cont{
+    height: 200px;
+    border: 1px solid #e6e6e6;
+}
+.upload-card-btn{
+    background-color: #47c7ea;
+    width: 100%;
+    box-sizing: border-box;
+    height: 44px;
+    line-height: 44px;
+ }
+.upload-card-review{
+
+}
+.upload-card-sel, .reupload{
+    background-color: #f8b62b;
+    width: 100%;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+}
+.upload-example{
+    margin-left: 20px;
+    float: left;
+    display: none;
+}
+.upload-example-item{
+    width: 144px;
+    float: left;
+    margin-right: 20px;
+}
+.upload-example-cont a{
+    text-decoration: underline;
+}
+.upload-example-item{
+
+}
+.upload-example-img-a{
+    border: 1px solid #e6e6e6;
+    height: 110px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: url(../images/employeepay/id-card-bg.png) no-repeat 0px 13px;
+}
+.uploaderpanel{
+    display: none!important;
+}
+.upload-example-img-a img{
+    width: 124px;
+    height: 94px;
+    margin: 9px;
+}
+.upload-example-img-b{
+    border: 1px solid #e6e6e6;
+    height: 110px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+background: url(../images/employeepay/id-card-bg.png) no-repeat 0px -110px;
+}
+/*page3*/
+.download{
+    text-decoration: underline;
+    font-weight: bold;
+}
+/*page4*/
+.apply-page4 .des{
+    color: #000;
+    font-weight: bold;
+    line-height: 36px;
+}
+ .updload-box{
+    width: 290px;
+    height: 328px;
+     border: 1px solid #e6e6e6;
+     border-radius: 5px;
+     margin-right:30px;
+     float: left;
+     margin-bottom: 20px;
+     margin-top: 10px;
+}
+.updload-box .updload-title{
+    line-height: 42px;
+    height: 42px;
+    border-bottom: 2px solid #47c7ea;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.updload-cont{
+    padding: 30px 0;
+    position: relative;
+
+}
+.updload-cont p{
+    line-height: 24px;
+}
+.updload-cont .filelist{
+    display: block;
+    border: none;
+    max-height: 150px!important;
+}
+.updload-cont .filelist li{
+    display: block;
+    border: none;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.updload-cont .filelist li p.imgWrap{
+
+}
+.upload-cloud-btn{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #47c7ea;
+    background-position: -101px -119px;
+    cursor: pointer;
+    top: 50px;
+    left: 90px;
+}
+/*成功页面*/
+.success-box{
+    padding-left: 100px;
+    position: relative;
+    padding-top: 20px;
+}
+.success-box a{
+    text-decoration: underline;
+}
+.successicon{
+    display: inline-block;
+    width:80px;
+    height: 80px;
+    background-position: -7px -109px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+.pagetitle-box{
+    padding: 10px 18px;
+    border-radius: 5px;
+    background: #fff;
+
+}
+.apply-process .filelist li p{
+    margin: 0;
+}
+.apply-process .filelist{
+    border: none;
+    /*max-height: 125px;*/
+    margin-left: 15px;
+}
+/*申请审核*/
+.review-logo{
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    background: url('../images/employeepay/employeepay-bigbg.png') no-repeat -12px -352px;
+}
+/*申请资料详细页*/
+.e-review-detail{
+    padding: 20px 0px;
+    background: #fff;
+}
+.e-review-detail>.cate-row{
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.e-review-detail dl, .e-review-detail ul{
+    float: left;
+    width: 50%;
+    line-height: 36px;
+}
+.e-review-detail ul.kks_op_ulfiles, .e-review-detail ul.kks_op_ulimgs{
+    width: 100%;
+}
+.e-review-detail dt{
+    float: left;
+    width: 130px;
+    color: #000;
+    font-weight: bold;
+}
+.e-review-detail dd{
+    padding-left: 130px;
+}
+.e-review-detail .companyinfo{
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.e-review-detail .cate-title{
+    margin: 15px 0px;
+}
+.confirmbox{
+    width: 360px;
+    padding: 20px;
+    padding-bottom: 0px;
+    background: #fff;
+
+}
+.confirmbox textarea{
+    width: 100%;
+    height: 130px;
+    resize: none;
+
+}
+/*历史资料弹出框*/
+.history-box{
+    width: 588px;
+}
+.history-box .filelist{
+    display: block;
+    border: none;
+    padding-bottom: 20px;
+}
+.history-box .filelist .title{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 20px;
+    top:134px;
+}
+.cyclecheck{
+    background-position: -8px -777px!important;
+    display: inline-block;
+    width: 21px!important;
+    height: 20px!important;
+    position: absolute;
+    right: 1px;
+    top: 2px;
+    margin: 0px!important;
+    cursor: pointer;
+}
+.cyclecheck.checked{
+    background-position:-8px -745px!important;
+}
+.filelist div.file-panel span.cancel{
+    display: none!important;
+}
+/*企业宝*/
+.cmppay .finish-line, .cmppay .unfinish-line{
+    top:82px;
+    top/*\**/:58px\9;
+}
+
+.cmppay .steps{
+    margin-top: 22px;
+}
+.cmppay .apply-page1{
+    margin-top: 60px;
+}
+.confirm-list dl{
+    width: 300px;
+}
+.confirm-list dt{
+    color: #000;
+    font-weight: bold;
+    float: left;
+    clear: both;
+}
+.confirm-list dd{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.confirm-list-r dd{
+    margin-left: 120px;
+}
+.successicon-s{
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    background-position: 0px -820px;
+}
+.success-box-s .success-txt-t{
+    color: #3ed870;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 7px;
+    margin-bottom: 20px;
+}
+.chart-mask{
+    position: absolute;
+    width: 655px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    left: 351px;
+    top: 347px;
+}
+.chart-title-mask{
+    position: absolute;
+    width: 655px;
+    height: 42px;
+    background-color: #fff;
+    position: absolute;
+    left: 351px;
+    top: 0px;
+    font-weight: bold;
+    color: #000;
+    text-indent: 20px;
+    line-height: 40px;
+}
+.family input{
+    width: 214px;
+    margin-right: 20px;
+}
+.family .icon{
+    cursor: pointer;
+}
+.accno-box .icon{
+    cursor: pointer;
+}
+.b-gray-sty1.style2{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.cate-title.header{
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+    border-bottom:2px solid #47c7ea;
+ }
+.filelist .add-edition {
+    height: 124px;
+    width: 124px;
+    cursor: pointer;
+    padding: 0px;
+    margin-left: 55px;
+    margin-right: 11px;
+    background-image: url('../images/credit/credit-bg.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+}
+.b-gray-sty1.style2 .filelist{
+    max-height:auto;
+}
+.b-gray-sty1 .filelist li p.title{
+    top:130px;
+}
+
+.b-gray-sty1.style2 .updload-box{
+    width: 311px;
+}
+.gray1{
+    color: #808080;
+}
+/*product1*/
+.product1 .apply-process .page6 .steps .step3 i, .product1 .apply-process .page5 .steps .step3 i, .product1 .apply-process .page6 .steps .step4 i{
+    background-position: 3px -346px;
+}
+.product1 .apply-process .page7 .steps .step2 i{
+    background-position: 3px -403px;
+}
+.product1 .apply-process .page7 .steps .step3 i{
+    background-position: 3px -451px;
+}
+.product1 .apply-process .page6 .steps .step3 p, .product1 .apply-process .page5 .steps .step3 p, .product1 .apply-process .page6 .steps .step4 p{
+    color: #808080;
+}
+.product1 .page4 .unfinish-line{
+    background-position: 380px -74px;
+}
+.product1 .page5 .unfinish-line{
+    background-position: 400px -74px;
+}
+.product1 .page6 .unfinish-line{
+    background-position: 420px -74px;
+}
+.product1 .page7 .unfinish-line{
+    background-position: 460px -74px;
+}
+.product1 .apply-process .page7 .steps .step2 p{
+    color: #32abb4;
+}
+.product1 .apply-process .page7 .steps .step3 p{
+    color: #30bc92;
+}
+/*product2*/
+.product2 .apply-process .page5 .steps .step3 i, .product2 .apply-process .page6 .steps .step4 i{
+    background-position: 3px -346px;
+}
+.product2 .apply-process .page5 .steps .step3 p, .product2 .apply-process .page6 .steps .step4 p{
+    color: #808080;
+}
+.product2 .page4 .unfinish-line{
+    background-position: 380px -74px;
+}
+.product2 .page5 .unfinish-line{
+    background-position: 410px -74px;
+}
+/*product3*/
+.product3 .apply-process .page6 .steps .step3 i, .product3 .apply-process .page5 .steps .step3 i, .product3 .apply-process .page6 .steps .step4 i{
+    background-position: 3px -346px;
+}
+.product3 .apply-process .page6 .steps .step3 p, .product3 .apply-process .page5 .steps .step3 p, .product3 .apply-process .page6 .steps .step4 p{
+    color: #808080;
+}
+
+.product3 .page4 .unfinish-line{
+    background-position: 380px -74px;
+}
+.product3 .page5 .unfinish-line{
+    background-position: 400px -74px;
+}
+.product3 .page6 .unfinish-line{
+    background-position: 420px -74px;
+}
+.product3 .page7 .unfinish-line{
+    background-position: 460px -74px;
+}
+.product3 .apply-process .page7 .steps .step2 p{
+    color: #32abb4;
+}
+.product3 .apply-process .page7 .steps .step3 p{
+    color: #30bc92;
+}
+/*信用宝银行*/
+.accno-box{
+    margin-left: 38px;
+}
+.accno{
+    margin-left: 48px;
+    width: 238px!important;
+    margin-right: 20px;
+}
+/*信用宝收支详细单页*/
+.tab-set {
+    border-radius: 4px;
+    font-size: 13px;
+}
+.tab-set .a1 {
+    border-radius: 4px 0px 0px 4px;
+}
+.tab-set a.selected {
+    background-color: #47c7ea;
+    color: #fff;
+    border-color: #47c7ea;
+}
+.tab-set a {
+    width: 65px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+}
+.tab-set .a2 {
+    border-radius: 0px 4px 4px 0px;
+}
+.filter-box{
+    border:1px solid #dfdfdf;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 20px;
+}
+.accounting-line{
+    line-height: 30px;
+    padding: 10px 0;
+}
+.accounting-line input ,.accounting-line select{
+    height: 32px;
+    line-height: 32px;
+}
+
+.accounting-table table{
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+
+}
+.accounting-table thead{
+    background-color: #fafafa;
+    font-weight: bold;
+
+}
+
+.accounting-table td{
+    border: 1px solid #dfdfdf;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 10px;
+}
+.accounting-table tbody td{
+    height: 25px;
+}
+.accounting-table thead td{
+    height: 40px;
+}
+.tbcenter-outbox{
+    width: 548px;
+    overflow-y:auto;
+}
+.tbcenter-box{
+    width: 1656px;
+}
+.tbcenter-box td{
+    width: 200px;
+}
+.monthtable td, .qtrtable td{
+   min-width: 132px!important;
+    width: 132px!important;
+    max-width: 132px!important;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.monthtable .usecn, .qtrtable .usecn{
+    min-width: 180px!important;
+    width: 180px!important;
+    max-width: 180px!important;
+}
+
+.tbcenter-box thead tr td:first-child{
+    border-left: none;
+}
+.tbcenter-box tbody tr td:first-child{
+    border-left: none;
+}
+.tbcenter-box thead tr td:last-child{
+    border-right: none;
+}
+.tbcenter-box tbody tr td:last-child{
+    border-right: none;
+}
+
+/*修复ie8上传*/
+.updload-cont .moxie-shim{
+    position: absolute;
+}
+#btn_containerLifePhotoUrlImage .moxie-shim{
+    position: absolute;
+}
+.upload-card-cont .moxie-shim{
+    height: 44px!important;
+    width: 100%!important;
+    top:0px!important;
+    position: absolute;
+}

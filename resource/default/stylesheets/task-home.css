@@ -1,0 +1,581 @@
+.i8-form dt{
+    float: left;
+    line-height: 36px;
+}
+.i8-form dd{
+    margin-left: 0px;
+    margin-bottom: 16px;
+    min-height: 40px;
+}
+dd .fw_ksntxtbox {
+    display: inline-block;
+    position: relative;
+}
+.w-724 {
+    width: 724px;
+    display: inline-block;
+}
+.btn-attachment {
+    width: 40px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 35px;
+    background-image: url('../images/icon-small.png');
+    background-repeat: no-repeat;
+    background-position: 9px -1063px;
+}
+.task-icon{
+    background-image: url('../images/task-icon.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.task-detail-logo{
+    width: 62px;
+    height: 64px;
+    background-position: -11px -13px;
+    display: inline-block;
+}
+/*icons*/
+.icon-finish{
+    width: 35px;
+    height: 32px;
+    background-position: -90px -147px;
+    margin-left: -6px;
+}
+.icon-review{
+    width: 35px;
+    height: 32px;
+    background-position: -90px -232px;
+    margin-left: -6px;
+}
+.icon-restart{
+    width: 35px;
+    height: 32px;
+    background-position: -90px -301px;
+    margin-left: -6px;
+}
+.icon-eye{
+    width: 44px;
+    height: 32px;
+    background-position: -92px -379px;
+    margin-left: -6px;
+}
+.task-detail-icon{
+    width: 66px;
+    height: 52px;
+    background-position: -115px -19px;
+}
+.task-detail-del{
+    width: 42px;
+    height: 45px;
+    background-position: -210px -20px;
+    margin-top: 5px;
+}
+.task-check-icon{
+    width: 66px;
+    height: 52px;
+    background-position: -212px -130px;
+}
+.task-attach-icon{
+    width: 66px;
+    height: 52px;
+    background-position: -212px -229px;
+}
+.task-comment-icon{
+    width: 66px;
+    height: 52px;
+    background-position: -212px -332px;
+}
+
+.head-l{
+    width: 350px;
+    float: left;
+}
+.head-l i{
+    float: left;
+    margin-right: 10px;
+}
+.head-l .blue{
+    display: block;
+    margin-top: 10px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-binding: url("ellipsis.xml#ellipsis");
+}
+.detail-page-title{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+.head-r{
+    float: right;
+    margin-top: 15px;
+}
+.head-r .btn-blue96x32{
+    border-radius: 5px;
+    float: right;
+    margin-right:10px; ;
+}
+.head-r .btn-yellow-h32{
+    width: 56px;
+    float: right;
+
+}
+/*内容左边导航*/
+.task-cont-l{
+    width: 76px;
+    float: left;
+    top:0px;
+    position: fixed;
+    top:131px;
+    -webkit-transition: .5s;
+    -moz-transition:  .5s;
+    -ms-transition:  .5s;
+    -o-transition:  .5s;
+    transition:  .5s;
+}
+.task-cont-l>a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 95px;
+    color: #000;
+    background-image: url('../images/task-icon.png');
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+.task-detail-nav{
+    background-position: 12px -142px;
+}
+.task-check-nav{
+    background-position: 11px -230px;
+}
+.task-attach-nav{
+    background-position: 12px -299px;
+}
+.task-comment-nav{
+    background-position: 11px -375px;
+}
+.task-process-nav{
+    background-position: 8px -441px;
+}
+
+.task-cont-r{
+    border: 1px solid #e6e6e6;
+    width: 904px;
+    border-radius: 5px;
+    float: left;
+    background-color: #fff;
+    margin-left: 76px;
+}
+.task-cont-r .cate-title{
+    padding-left: 28px;
+    padding-right: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top:1px dashed #e5e5e5;
+}
+.task-cont-r .cate-body, .task-cont-r-head{
+    padding-left: 28px;
+    padding-right: 18px;
+}
+.task-cont-r-head{
+    background-color: #f5f5f5;
+    padding: 15px;
+    padding-left: 28px;
+    padding-right: 18px;
+    min-height: 46px;
+}
+.finish-head{
+    display: inline-block;
+    max-width: 890px;
+}
+.unfinish-head{
+    line-height: 46px;
+}
+.focus-task{
+    width: 120px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 4px;
+}
+.task-cont-r-head{
+    font-size: 13px;
+}
+.task-cont-r-head b{
+    font-weight: bold;
+    color: #000;
+    font-size: 13px;
+}
+
+.task-cont-r-head .score{
+    color: #8bd01f;
+    font-size: 36px;
+    font-family: arial, sans-serif;
+}
+.task-comment-row{
+    color: #333;
+    font-size: 13px;
+    font-weight: normal;
+}
+.task-detail-row dt{
+    width:60px;
+    color: #000;
+    font-weight: bold;
+}
+.task-detail-row dl{
+    width: 418px;
+}
+.task-detail-row input{
+    width: 440px;
+}
+.task-detail-row .perc-100{
+    width: 100%;
+}
+.task-detail-row .perc-100 input{
+    width: 1012px;
+}
+.task-detail-row .perc-100 .fw_ksntxtbox  input{
+    width: 100%;
+}
+
+.task-detail-row .time-input{
+    width: 206px;
+}
+.task-check-row .app-checkbox{
+    margin-right: 15px;
+    left: 20px;
+    position: absolute;
+}
+.task-check-row .cate-body>div{
+    margin-bottom: 15px;
+}
+/*附件*/
+.task-attach-row .kks_op_file_info{
+    padding-top: 18px;
+    width: 260px;
+}
+.task-attach-row .kks_op_file_info>div{
+    margin-top: 4px;
+}
+.task-attach-row .kks_op_ulfiles li{
+    width: 383px;
+}
+.task-attach-row .kk_files_panl .kks_op_file_info p a{
+    margin-top: 5px;
+    width: auto;
+}
+.fj-file-guidang{
+
+}
+
+
+/*参与的页面*/
+.select-people-line-box{
+overflow: hidden;
+    position: relative;
+    display: none;
+}
+.select-people-line-box .expend-content-line{
+    right: 60px!important;
+    width: 50px!important;
+}
+.select-people-line{
+    padding-left: 10px;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    padding: 15px;
+    padding-bottom: 5px;
+    color: #000;
+    padding-right: 100px;
+    margin-top: 15px;
+}
+.select-people-line .threeline-icon{
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    top:20px;
+    background-position: -384px -20px;
+    cursor: pointer;
+}
+.select-people-line span{
+    line-height: 24px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.select-people-line span.active{
+    background-color: #47c7ea;
+    color: #fff;
+}
+.select-people-line span:hover{
+    background-color: #47c7ea;
+    color: #fff;
+}
+.show-search {
+    position: relative;
+    display: inline-block;
+}
+
+.app_task_search_span {
+    padding-bottom: 10px;
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    border: 1px solid rgb(217, 217, 217);
+    background: rgb(255, 255, 255);
+    z-index: 999;
+}
+
+.app_task_search_panl {
+    margin: 15px;
+    font-size: 12px;
+}
+.app_task_search_tr {
+    padding: 5px 0px;
+}
+.i8-form .app_task_search_tr .igroup-input{
+    min-width: 100px;
+    padding-left: 0px;
+    text-indent: 1em;
+}
+.app_task_search_tr input{
+    width: 340px;
+    height: 26px;
+    line-height: 26px;
+}
+.app-map-site{
+    margin-top: 10px;
+}
+
+.toback2{
+    display: inline-block;
+    width: 55px;
+    height: 50px;
+    background-image: url('../images/icon.png');
+    background-repeat: no-repeat;
+    background-position: 5px -4553px;
+    background-color: rgba(250,250,250,0.2);
+    border-left: 1px solid #dfdfdf;
+}
+/*新建页面*/
+.edit-task-cont{
+    margin:15px;
+}
+.edit-task-cont dt{
+    width: 70px;
+}
+.edit-task-cont .detail {
+    width: 726px;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    height: 80px;
+}
+/*任务详情*/
+.stopedit .fw_ksninput_slted a{
+    display: none!important;
+}
+.stopedit input{
+    display: none!important;
+}
+.stopedit .fw_ksntxtbox{
+    border: 1px solid transparent!important;
+    float: left;
+}
+.stopedit .ksner-focus {
+    box-shadow: none!important;
+}
+.stopedit .fw_ksntxtbox_alert_ico{
+    display: none;
+}
+.stopedit .fw_ksntxtbox .fw_ksninput .fw_ksninput_slted{
+    height: 31px;
+    line-height: 31px;
+    padding: 0px 5px;
+    margin-right: 1px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    background: #ededed;
+    padding: 0px 15px 0px 15px;
+    color: #333;
+    border: 1px solid #dfdfdf;
+}
+.stopedit #delay_time, .stopedit .time-em-box{
+    display: none;
+}
+.stopedit #time_delay_txt{
+    display: block;
+}
+.timestopedit .time-edit-box{
+    display: none;
+}
+.execution-time .btn-edit2{
+    display: none;
+}
+.timestopedit .time-show-box{
+    display: block;
+    margin-top: 10px;
+}
+.timestopedit .btn-edit2{
+    display: inline-block;
+}
+
+.stopedit .fw_ksninput{
+    padding-right: 10px!important;
+}
+.stopedit .fw_ksntxtbox{
+    min-width: 30px;
+}
+.stopedit textarea{
+    display: none;
+}
+.time-show-box{
+    display: none;
+}
+#time_delay_txt{
+    display: none;
+}
+.detail-page .editing .btn-edit2{
+    display: none;
+}
+.detail-page    .editing .fw_ksntxtbox{
+    min-width: 336px!important;
+}
+.detail-page .kks_op_file_info div{
+    float: left;
+    margin-right: 10px;
+}
+.detail-page .kks_op_file_info p{
+    clear: both;
+}
+.child-item{
+    position: relative;
+    margin-bottom: 0px!important;
+    padding-bottom:15px;
+    padding-left: 50px;
+    margin-left: -20px;
+    word-break: break-all;
+}
+.child-item:hover i{
+    display: inline-block;
+}
+.child-item i{
+    display: none;
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    padding-right: 0px;
+}
+.more-box{
+    display: none;
+}
+#review_name .fw_ksntxtbox{
+    display: none;
+}
+#review_name.active .fw_ksntxtbox{
+    display: inline-block;
+}
+#share_box{
+    display: none;
+}
+.show-search .fw_ksntxtbox .fw_ksnplaceholder{
+    left: 16px;
+    top: -4px;
+}
+#task_status.style2 .status4{
+    display: none;
+}
+#task_status.style2 .status5{
+    display: none;
+}
+
+#task_status.style3 .status1{
+    display: none;
+}
+#task_status.style3 .status2{
+    display: none;
+}
+#task_status.style3 .status3{
+    /*display: none;*/
+}
+#des_box{
+    min-height: 85px;
+}
+#des_txt{
+    border: 1px solid #f2f2f2;
+    min-height: 85px!important;
+}
+.participants-box{
+    padding-left: 46px;
+}
+.participants-box .fw_ksntxtbox{
+    max-width: 720px;
+}
+.participants-box .fw_ksntxtbox span{
+    margin-bottom: 5px;
+}
+.edit-task-cont dt{
+    position: relative;
+}
+.edit-task-cont .icon-required{
+    right: 3px;
+    width: 10px;
+    left: auto;
+    top: 12px;
+}
+.task-title{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    max-width: 300px;
+    padding-right: 30px;
+    color: #47c7ea;
+}
+.error-page-box{
+    min-height: 400px;
+}
+#todo_box .app-table-list tr td:first-child{
+    max-width: 350px;
+    width: 350px;
+    margin-right: 20px;
+}
+#todo_box .app-table-list tr td:first-child a{
+    display: inline-block;
+    width: 300px;
+    padding-right: 20px;
+    margin-right: 20px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+#todo_box .app-table-list tr td{
+    min-width: 100px;
+}
+.seach_doc_input{
+    float: right;
+}
+.time-input.date-bg{
+    background-position: 275px -1070px!important;
+}
+.time-input.date-bg.checked{
+    background-position: 275px -1000px!important;
+}

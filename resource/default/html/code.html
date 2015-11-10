@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0160)http://wap.cmread.com/r/403280804/403281965.htm?page=1&purl=%2Fr%2Fl%2Fv.jsp%3Fpage%3D1%26nid%3D373338605%26bid%3D403280804&nid=373338605&vt=3&ln=2511_24007__2_ -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=640px, user-scalable=no">
+    <title>日历同步</title>
+    <style type="text/css">
+        @charset "utf-8";
+        /*公用样式*/
+        body,#nav_zz,#navPanel,.navPanel,.mainlistsbox ,.nav_content_item{min-width:320px;}
+        body{ font-family:"\5FAE\8F6F\96C5\9ED1", Helvetica;font-size:30px; color:#000; background:#fff;-webkit-text-size-adjust: none; line-height:150%;}
+        body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+        h1,h2,h3,h4,h5,h6{font-size:100%}
+        address,cite,dfn,em,var,i{font-style:normal}
+        code,kbd,pre,samp{font-family:courier new,courier,monospace}
+        form{display:inline}
+        small{font-size:12px}
+        ul,ol{list-style:none}
+        a,a:visited{text-decoration:none;color:#333}
+        a:hover, a:active, a:focus{color:#09c;text-decoration: none;}
+        a:active{color:#aaa;}
+        img{vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+        button,input,select,textarea{font-size:100%; vertical-align:middle;outline:none;-webkit-appearance:none;}
+        table{border-collapse:collapse;border-spacing:0}
+        textarea{resize:none}
+
+        .copyBox{text-align: center;width: 560px;margin: 148px auto 0;}
+
+        .cardBox{width: 235px;height: 235px;border-radius: 100%;-webkit-border-radius: 100%;background: #faa531;margin: 0 auto 70px;overflow: hidden;}
+        .card{width: 150px;height: 90px;margin: 57px auto 0;position: relative;background: #fff;border-color: #223e4d;border-width:22px 6px 10px 6px;border-style: solid;border-radius: 10px;-webkit-border-radius: 10px;}
+        .card:before,.card:after{content: "";position: absolute;left: 22px;top:14px;height: 6px;width: 117px;border-top:11px solid #cfd6e7;border-bottom:11px solid #cfd6e7;}
+        .card:after{top:47px;}
+        .card i{position: absolute;width: 8px;height: 8px;border-radius: 100%;-webkit-border-radius: 100%;top:-14px;left: 5px;background: #fff;}
+        .card i.r2{left: 18px;}
+        .card i.r3{left: 31px;}
+        .copyTxt{font-size: 24px;margin: 25px 0 65px;word-break: break-all;text-align: left;}
+
+        a.btn_b,a.btn_w{letter-spacing: 3px;background: #47c7ea;text-align: center;color: #fff;border: 1px solid #47c7ea;font-size: 30px;height: 80px;line-height: 80px;width: 558px;display: block;margin: 32px auto;border-radius: 10px;-webkit-border-radius: 10px;}
+        a.btn_w{background: #fff;color: #47c7ea;border-color: #47c7ea;}
+    </style>
+<body>
+<div class="copyBox">
+    <div class="cardBox">
+        <div class="card"><i></i><i class="r2"></i><i class="r3"></i></div>
+    </div>
+    <div>您将要访问</div>
+    <div class="copyTxt" ><a id="code"></a></div>
+    <a href="" class="btn_b" id="link">继续访问</a>
+</div>
+</body>
+<script>
+    var _url=window.location.hash.substr(1);
+    document.getElementById('code').innerHTML=_url;
+    document.getElementById('code').href=_url;
+    document.getElementById('link').href=_url;
+</script>
+</html>

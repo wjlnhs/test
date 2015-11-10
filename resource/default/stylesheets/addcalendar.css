@@ -1,0 +1,237 @@
+/*新建会议弹出框*/
+.i8-form dt{
+    float: left;
+    line-height: 36px;
+}
+.i8-form dd{
+    margin-left: 0px;
+    margin-bottom: 16px;
+}
+dd .fw_ksntxtbox{
+    display: inline-block;
+}
+.edit-schedule-cont{
+    margin: 15px;
+    width: 796px;
+}
+.edit-schedule-cont dt{
+    width: 70px;
+}
+.w-724{
+    width: 724px;
+    display: inline-block;
+}
+.w-400{
+    width: 400px;
+    display: inline-block;
+}
+.w-724 input{
+    width: 100%;
+
+}
+.edit-schedule-cont input{
+    position: relative;
+    background: transparent;
+}
+.start-time{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.end-time{
+    margin-top: 15px;
+    float: right;
+    margin-right: 2px;
+}
+.start-time, .start-time select{
+    width: 350px;
+    display: inline-block;
+}
+.end-time, .end-time select{
+    width: 350px;
+    display: inline-block;
+}
+.repeat-checkbox{
+    margin-left: -30px;
+}
+.repeat-box{
+    padding-left: 70px;
+}
+.i8-form .repeat-box{
+    min-height: 0px;
+}
+.edit-schedule-cont .repeat-start{
+    width: 340px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.edit-schedule-cont .repeat-end{
+    width: 340px;
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.every-week-checkboxs .app-checkbox{
+    margin-left: 45px;
+}
+.every-week-checkboxs .app-checkbox:first-child{
+    margin-left: 0px;
+}
+.free-meeting-room{
+    padding-left: 70px;
+}
+.search-free-meeting-room{
+    display: block;
+    margin:15px;
+    text-decoration:underline;
+}
+.edit-schedule-cont .expire-remind{
+    margin-left: 20px;
+    width: 300px;
+}
+.edit-schedule-cont .expire-remind-unit{
+    width: 342px;
+    float: right;
+}
+.edit-schedule-cont .expire-remind-unit input{
+    width: 340px;
+}
+.edit-schedule-cont .detail{
+    width: 726px;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    height: 80px;
+}
+.edit-schedule-cont .btn-attachment{
+    margin-top: 5px;
+}
+.btn-attachment{
+    width: 40px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 35px;
+    background-image: url('../images/icon-small.png');
+    background-repeat: no-repeat;
+    background-position: 9px -1063px;
+}
+.attach-cont{
+    width: 725px;
+}
+
+.schedule-tab .edit-schedule-cont{
+    width: 710px;
+}
+.schedule-tab .w-724{
+    width: 638px;
+}
+.schedule-tab .w-400{
+    width: 320px;
+}
+.schedule-tab .start-time,.schedule-tab .end-time{
+    width: 310px;
+}
+.schedule-tab .start-time select,.schedule-tab .end-time select{
+    width: 310px;
+}
+.schedule-tab .edit-schedule-cont .expire-remind{
+    width: 245px;
+}
+.schedule-tab .edit-schedule-cont .expire-remind-unit{
+    width: 314px;
+}
+.schedule-tab .edit-schedule-cont .w-343{
+    width: 314px;
+}
+.schedule-tab .edit-schedule-cont .repeat-start,.schedule-tab .edit-schedule-cont .repeat-end{
+    width: 300px;
+}
+
+.schedule-tab .every-week-checkboxs .app-checkbox{
+    margin-left: 30px;
+}
+.schedule-tab .every-week-checkboxs .app-checkbox:first-child{
+    margin-left: 0;
+}
+.schedule-tab .edit-schedule-cont .detail{
+    width: 640px;
+}
+.schedule-tab .fw_ksntxtbox{
+    margin-left: 70px;
+}
+
+.schedule-tab .chooseplace{
+    background: url('../images/sprite_home.png') no-repeat -667px -187px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    margin-top: -29px;
+}
+.schedule-tab .place-panel{
+    width: 400px;
+    padding: 20px;
+}
+
+.btn-attachment{
+    background-image: url('../images/icon-small.png');
+}
+.schedule-tab .attach-cont{
+    width: 640px;
+}
+.chooseplace{
+    background: url('../images/sprite_home.png') no-repeat -667px -187px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    margin-top: -29px;
+}
+.place-panel{
+    width: 400px;
+    padding: 20px;
+}
+.meetplace{
+    width: 410px!important;
+    height: 36px;
+}
+.smallselectmeet{
+    width: 300px!important;
+}
+.schedule-tab .meetplace{
+    width: 324px!important;
+}
+.schedule-tab .smallselectmeet{
+    width: 250px;
+}
+.more-box{
+    height: 0px;
+    overflow: hidden;
+    transition: height .5s;
+    -moz-transition: height .5s; /* Firefox 4 */
+    -webkit-transition: height .5s; /* Safari 和 Chrome */
+    -o-transition: height .5s; /* Opera */
+}
+.more-box.hauto{
+    height: auto;
+    transition: height .5s;
+    -moz-transition: height .5s; /* Firefox 4 */
+    -webkit-transition: height .5s; /* Safari 和 Chrome */
+    -o-transition: height .5s; /* Opera */
+}/*
+.edit-schedule-cont .icon-down-solid:after{
+    content: '展开';
+    width: 100px;
+    display: inline-block;
+    padding-left: 17px;
+}
+
+.edit-schedule-cont .icon-up:after{
+    content: '收起';
+    width: 100px;
+    display: inline-block;
+    padding-left: 17px;
+}*/

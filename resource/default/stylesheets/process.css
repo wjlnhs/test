@@ -1,0 +1,124 @@
+.process-items{
+    padding-left: 24px;
+    margin-top: 15px;
+}
+.process-items img{
+    vertical-align: middle;
+}
+.process-items>div{
+    border-left:2px solid #e5e5e5 ;
+    color: #000;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+.processitem-hide{
+    display: none;
+}
+.process-open .processitem-hide{
+    display: block;
+}
+.processitem-show{
+    display: block;
+}
+
+.process-items .processitem-more, .process-items .processitem-less{
+    border-left:none ;
+    color: #47c7ea;
+    cursor: pointer;
+    width: 100px;
+    margin-left: -10px;
+}
+.process-items .processitem-less{
+    display: none;
+}
+.process-open .processitem-more{
+    display: none;
+}
+.process-open .processitem-less{
+    display: block;
+}
+.process-item-creat:last-child{border:none}
+.process-items .user-pic{
+    border-radius: 50%;
+}
+.process-items .task-icon{
+    margin-left: -24px;
+    background-color: #fff;
+}
+.process-items .user-pic{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.process-items .doc-options{
+    cursor: auto!important;
+}
+.process-txt {
+    padding-left: 210px;
+    margin-top: -29px;
+}
+.process-txt span{
+    word-break: break-all;
+}
+/*icons*/
+.task-icon, .quote-box .task-icon{
+    background-image: url('../images/task-icon.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    position: static;
+}
+.task-process-icon{
+    width: 66px;
+    height: 52px;
+    background-position: -212px -421px;
+}
+.process-item-close .task-icon{
+    width: 48px;
+    height: 35px;
+    background-position: -289px -8px;
+}
+.process-item-creat .task-icon{
+    width: 48px;
+    height: 35px;
+    background-position: -289px -423px;
+}
+.process-item-restart .task-icon{
+    width: 48px;
+    height: 35px;
+    background-position: -289px -60px;
+}
+.process-item-reback .task-icon{
+    width: 48px;
+    height: 35px;
+    background-position: -358px -424px;
+}
+.process-item-finish .task-icon, .task-icon.icon-finish-score{
+    width: 48px;
+    height: 35px;
+    background-position: -289px -111px;
+}
+.process-item-see .task-icon{
+    width: 48px;
+    height: 35px;
+    background-position: -289px -163px;
+}
+.process-item-comment .task-icon{
+    width: 48px;
+    height: 35px;
+    background-position: -289px -215px;
+}
+.process-item-peoplechange .task-icon{
+    width: 48px;
+    height: 35px;
+    background-position: -289px -267px;
+}
+.process-item-timechange .task-icon{
+    width: 48px;
+    height: 35px;
+    background-position: -289px -318px;
+}
+.process-item-updatafile .task-icon{
+    width: 48px;
+    height: 35px;
+    background-position: -289px -370px;
+}

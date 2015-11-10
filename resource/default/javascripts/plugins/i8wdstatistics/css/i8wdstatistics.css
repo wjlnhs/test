@@ -1,0 +1,161 @@
+/*统计*/
+.statistics{
+    width: 1198px;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: #dfdfdf;
+    border-bottom: 0;
+    color: #000;
+}
+.statistics-head{
+    height: 80px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.statistics-select{
+    width: 270px;
+    height: 40px;
+    margin: 20px auto 0 auto;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+.statistics-select a{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: block;
+    background-color: #47c7ea;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    top: 5px;
+    z-index: 1;
+}
+.statistics-select a.prev-month{
+    left: 5px;
+}
+.statistics-select a.next-month{
+    right: 5px;
+}
+.statistics-content{
+    background-color: #fff;
+    overflow: hidden;
+}
+.statistics-content table{
+    width: 100%;
+
+}
+.statistics-content table th{
+    border: 1px solid #dfdfdf;
+    border-left: none;
+    background-color: #fafafa;
+    height: 45px;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: normal;
+}
+.statistics-content table th.head-title{
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.statistics-content table td{
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+.statistics-content .day-panel{
+    position: absolute;
+}
+.statistics-content .day-panel table td{
+    width: 33px;
+    color: #999;
+    font-weight: bold;
+}
+.statistics-content table td.h60{
+    height: 60px;
+}
+.statistics-left{
+    float: left;
+    width: 218px;
+    position: relative;
+    z-index: 2;
+}
+.statistics-right{
+    float: left;
+    position: relative;
+    z-index: 1;
+    width: 980px;
+    overflow: hidden;
+}
+.toleft,.toright{
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    z-index: 20;
+    top: 15px;
+    cursor: pointer;
+}
+.toleft{
+    background-position: -197px -446px;
+    left: 10px;
+}
+.toright{
+    background-position: -197px -467px;
+    right: 10px;
+}
+.data-row{
+    height: 62px;
+    font-weight: normal;
+}
+.statistics-content .day-panel table .data-row td{
+    font-weight: normal;
+}
+.statistics-content .day-panel .data-row table{
+    width: 100%;
+}
+.statistics-content table .data-row  th{
+    padding-left: 0;
+}
+.statistics-content .day-panel .data-row table td{
+    height: 29px!important;
+    border: none;
+}
+.top-rowborder{
+    border: 2px solid #47c7ea;
+    border-bottom: 0;
+    height: 29px;
+    line-height: 30px;
+}
+.top-rowborder.yellow{
+    border-color: #f8b62d;
+}
+.top-rowborder.yellow a{
+    color: #f8b62d ;
+}
+.daliyicon{
+    height: 100%;
+    line-height: 30px;
+}
+.daliyicon.d-submit{
+    background-color: #47c7ea;
+    color: #fff;
+}
+.daliyicon.d-unsubmit{
+    background-color: #f8b62d;
+    color: #fff;
+}
+.daliyicon.d-paysubmit{
+    background-color: #fff;
+    border: 2px solid #47c7ea;
+    color: #47c7ea;
+    height: 26px;
+}
